@@ -1,1 +1,32 @@
+<!DOCTYPE html>
+<!--adebowale, programmer--><html lang="en">
+<head>
+<meta charset= "UTF-8">
+      <title>Adebowale Project 1</title>
+      <link rel = "stylesheet" type = "text/css" href = "css/style_reset.css">
+      <link rel = "stylesheet" type = "text/css" href = "css/style.css">
 
+      </head>
+	<body>
+		<nav>
+	<ul><li><a class= "active" href= "index.html">Home Page</a></li>
+	      <li><a href= "resume.html">Resume</a></li>
+		      <li><a href= "heritage.html">Heritage</a></li></ul></nav>
+<hr>
+	<h3>This page is just a little more about me</h3>
+	<hr>
+	<p>My ethnicity is Yoruba. They are a group of people (several hundreds of tribes) scattered mainly around the southern parts of Nigeria. They have a very rich culture and traditions
+	<h2>Food</h2>
+	<p> There are so many vegetables and fruits used to make Nigerian foods including peppers, rice, yams, tomatoes, and coconuts. Some of the most common spices and seasoning include cayenne pepper, suya seasoning, thyme, curry, and rosemary. These are some of the staple foods </p>
+	<ul><li>Jollof rice (smokey, rich flavor)</li>
+		<li> Dodo (crispy, fried and sometimes seasoned plantains)</li>
+		<li> Stew</li>
+		<li> Efo-riro and stew with pounded yam</li>
+		<li>Yam and egg stew</li>
+		<li>Anything with stew</li></ul>
+	<p>Here are some copyright free photos of Jollof- Rice:)</p>
+	  <img src = "img/jollof1.jpg" alt="The first jollof pic" style="width:300px;height:360px;"/>
+	<img src = "img/jollof2.jpg" alt="The second jollof pic" style="width:300px;height:360px;">
+
+</body>
+</html>
