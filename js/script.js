@@ -1,23 +1,25 @@
 function initMap() {
-
-var map;
-  map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 10,
-    center: new google.maps.LatLng(2.8,-187.3),
-    mapTypeId: 'terrain'
+  var locationChicago = {lat: 41.8781, lng: -87.6298};
+  var locationMilleniumPark = {lat: 41.8826, lng: -87.6226};
+  var locationHiltonChicago = {lat: 41.8726, lng: -87.6247};
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 13,
+    center: locationChicago,
+    gestureHandling: 'cooperative'
   });
-
-  var coor= {
-    "41.8781": "-87.6298",
-    "6.5244":"3.3792",
-    "51.5074":"0.1278"
-  };
-
-for (var key in coor) {
-    var latLng = new google.maps.LatLng(key,coor[key]);
-    var marker = new google.maps.Marker({
-      position: latLng,
-      map: map
-    });
-  }
+  var marker = new google.maps.Marker({
+    position: locationChicago,
+    map: map,
+    title: 'Hello World!'
+  });
+  var marker = new google.maps.Marker({
+    position: locationMilleniumPark,
+    map: map,
+    title: 'Hello Milleniumpk!'
+  });
+  var marker = new google.maps.Marker({
+    position: locationHiltonChicago,
+    map: map,
+    title: 'Hello Hilton!'
+  });
 }
