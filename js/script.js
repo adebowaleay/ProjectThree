@@ -23,9 +23,3 @@ map: map
 });
 }
 }
-<!--insert js slider plugin-->
-<!--picture slider-->
-<!--features-->
-function displaySlides(n) {
-<!--if or for iteration?-->
-}
