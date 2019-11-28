@@ -1,9 +1,10 @@
 function initMap() {
-
+var myLatLng = {lat: 2.8, lng: -187.3};
+  
 var map;
   map = new google.maps.Map(document.getElementById('map'), {
     zoom: 10,
-    center: new google.maps.LatLng(2.8,-187.3),
+    center: myLatLng
     mapTypeId: 'terrain'
   });
 
@@ -16,7 +17,7 @@ var map;
 for (var key in coor) {
     var latLng = new google.maps.LatLng(key,coor[key]);
     var marker = new google.maps.Marker({
-      position: latLng,
+      position: myLatLng,
       map: map
     });
   }
