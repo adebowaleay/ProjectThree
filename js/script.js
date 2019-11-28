@@ -1,13 +1,11 @@
-function initMap() {
-var myLatLng = {lat: 2.8, lng: -187.3};
-  
+
 var map;
+function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 10,
+    zoom: 2,
     center: new google.maps.LatLng(2.8,-187.3),
     mapTypeId: 'terrain'
   });
-
   var coor= {
     "41.8781": "-87.6298",
     "6.5244":"3.3792",
