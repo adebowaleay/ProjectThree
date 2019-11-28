@@ -1,38 +1,32 @@
 <!DOCTYPE html>
-<!--adebowale, programmer--><html lang="en">
+<!--adebowale, programmer-->
+<html lang="en">
 <html id="html">
   <!--map zoom-->
   <!--js slider-->
   <!--inlline formatter-->
   <head>
-        <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
-        <!--<meta name="viewport" content="initial-scale=1.0, user-scalable=no">-->
-        <meta charset="utf-8">
-   <!-- <link rel = "stylesheet" type = "text/css" href = "css/style.css"> -->
-    <!--<title>Adebowale Project 3</title>-->
-   <style>#map {
-        height: 100%;
-        width: 100%;
-      }
-     
-      #html {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      }
-      #body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      }</style>
+        !--<meta name="viewport" content="initial-scale=1.0, user-scalable=no">-->
+        <meta charset="UTF-8">
+<link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/style_reset.css"
+<!--href fonts format(??)-->
+</head>
+   <body id="body">
+      <nav>
+         <ul>
+            <li><a class= "active" href= "index.html">Home Page</a></li>
+            <li><a href= "resume.html">Resume</a></li>
+            <li><a href= "heritage.html">Heritage</a></li>
+            <li><a href= "googleapi.html">Map</a></li>
+         </ul>
+      </nav>
+
+<h2>The pins aare are places I have travelled to in the past year!</h2>
+<!--Edit how this shows up(ie on map header or on page?)-->
+<div id="map"> 
     <script type="text/javascript" charset="UTF-8" src="script.js"></script>
-    <!--<script type="text/javascript" charset="UTF-8" src="script.js"></script>/obsolete-->
-  </head>
-  
-  <body id="body" >
-    <div id="map"></div>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCP6SysJZZK2_7SDdm6YPM3g9zclsVsbx8&callback=initMap">
-    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCP6SysJZZK2_7SDdm6YPM3g9zclsVsbx8&callback=initMap"> async defer></script>
+</div>
   </body>
 </html>
