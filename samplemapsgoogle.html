@@ -22,15 +22,7 @@
         var locationRio = {lat: -22.915, lng: -43.197};
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 13,
-          center: locationRio,
-          gestureHandling: 'cooperative'
-        });
-        var marker = new google.maps.Marker({
-          position: locationRio,
-          map: map,
-          title: 'Hello World!'
-        });
-        styles: [
+               styles: [
             {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
             {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
             {elementType: 'labels.text.fill', stylers: [{color: '#746855'}]},
@@ -110,6 +102,14 @@
               stylers: [{color: '#17263c'}]
             }
           ]
+        });
+          center: locationRio,
+          gestureHandling: 'cooperative'
+        });
+        var marker = new google.maps.Marker({
+          position: locationRio,
+          map: map,
+          title: 'Hello World!'
         });
       }
     </script>
