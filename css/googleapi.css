@@ -1,0 +1,16 @@
+
+      /* Optional: Make the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        background-color:#ccffff;
+      }
+      #map {
+        height: 50%;
+        width: 50%;
+        margin- top: 50px;
+        margin- left: auto;
+        margin- rigth: auto;
+        padding: 0;
+      }
