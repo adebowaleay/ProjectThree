@@ -24,6 +24,16 @@
           center: {lat: -34.397, lng: 150.644},
           zoom: 8
         });
+        var locationRio = {lat: -22.915, lng: -43.197};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 13,
+          center: locationRio,
+          gestureHandling: 'cooperative'
+        });
+        var marker = new google.maps.Marker({
+          position: locationRio,
+          map: map,
+          title: 'Hello World!'
       }
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCP6SysJZZK2_7SDdm6YPM3g9zclsVsbx8&callback=initMap"
