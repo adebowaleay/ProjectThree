@@ -19,7 +19,7 @@ p{
 line-height: 2em;
 }
 li a {
-display: block;
+display: inline;
 color: red;
 text-align: center;
 padding: 0.5em 0.5em;
