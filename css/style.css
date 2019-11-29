@@ -7,6 +7,7 @@ background-color: #fefbd8;
 line-height: 1.5em;
 }
 ul {
+float: left;
 list-style-type: none;
 margin: 0;
 padding: 0;
@@ -19,7 +20,7 @@ p{
 line-height: 2em;
 }
 li a {
-display: inline;
+display: block;
 color: red;
 text-align: center;
 padding: 0.5em 0.5em;
