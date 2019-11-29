@@ -7,7 +7,6 @@ background-color: #fefbd8;
 line-height: 1.5em;
 }
 ul {
-float: left;
 list-style-type: none;
 margin: 0;
 padding: 0;
@@ -15,6 +14,9 @@ overflow: hidden;
 background-color: #E6E6FA;
 line-height: 2em;
 border: 5px inset red;
+}
+li {
+  float: left;
 }
 p{
 line-height: 2em;
