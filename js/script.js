@@ -22,4 +22,5 @@ function initMap() {
     map: map,
     title: 'Hello Hilton!'
   });
+  window.addEventListener('onload',initMap);
 }
